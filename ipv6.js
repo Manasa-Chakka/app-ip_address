@@ -40,6 +40,6 @@ function getIpv4MappedIpv6Address(ipv4) {
       }
     }
   }
-  return [ipv4,ipv6Address];
- //  return ipv6Address;
+ // return [ipv4,ipv6Address];
+   return ipv6Address;
 }
